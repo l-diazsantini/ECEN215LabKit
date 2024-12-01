@@ -1,3 +1,7 @@
+This is the GitHub repository for Group 30: ECEN 215 Lab Kit, from Fall '24 ECEN 404 section 902. This branch contains the firmware code for the final ECEN 215 Lab Kit device.
+
+
+
 | Supported Targets | ESP32 | ESP32-C2 | ESP32-C3 | ESP32-C6 | ESP32-H2 | ESP32-S3 |
 | ----------------- | ----- | -------- | -------- | -------- | -------- | -------- |
 
