@@ -7,7 +7,7 @@ If the lab kit is a brand-new PCB, the user will need to connect the Tx, Rx, and
   |  +5v power supply  |  +voltmeter/+oscilloscope  |  ground                    |  +ammeter   |  +ohmmeter |<br>
                                                    |   Wavegen           |  -5v power supply          |  -voltmeter/-oscilloscope  |  -ammeter   |  -ohmmeter  |
 </div>
-<br>Wires are also color coded in which the wires for +/- power supply are red, +/- voltmeter/oscilloscope are blue, +/- ammeter are orange, +/- ohmmeter are brown, ground is black, and Wavegen is yellow. 
+<br>Wires are also color coded in which the wires for +/- power supply are red, +/- voltmeter/oscilloscope are blue, +/- ammeter are orange, +/- ohmmeter are brown, ground is black, and Wavegen is yellow.<br>
 
 The information below provides further insight into how this code enables the onboard ESP32 to connect via Bluetooth.
 
