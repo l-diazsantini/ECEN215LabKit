@@ -1,8 +1,10 @@
-This is the GitHub repository for Group 30: ECEN 215 Lab Kit, from Fall '24 ECEN 404 section 902. This branch contains the firmware code for the final ECEN 215 Lab Kit device. All of the group's reports, presentations, research, meeting notes, etc. can be located in the Documents folder. The PCB and Case folder contains all PCB schematics and case design drawings/markups. All mobile app code can be located in the FLutterFlow branch of this repo.
+This is the GitHub repository for Group 30: ECEN 215 Lab Kit from Fall '24, ECEN 404 section 902. This branch contains the firmware code for the final ECEN 215 Lab Kit device. All of the group's reports, presentations, research, meeting notes, etc., can be found in the Documents folder. The PCB and Case folder contains all PCB schematics and case design drawings/markups. All mobile app code can be found in the FlutterFlow branch of this repository.
 
-In order to operate this device once must have a physical ECEN215 Lab Kit and a mobile phone, preferably one that operates on Android software. If using a lab kit that has already been set up, the user only needs to press the enable button through the case to actibvate the device and connect to it through the mobile application. Please see the FlutterFlow branch for instructions on how ot download the application to a device. If the user's lab kit is a brand new PCB then one would need to connect the Tx, Rx, and Gnd pins located on the PCB and connect to a computer. Once connected one can download this code, open it in an Espressif IDF enviorment, and build and flash the PCB. If done successfully the Lab Kit will be ready for bluetooth connection via the mobile application.
+To operate this device, you must have a physical ECEN 215 Lab Kit and a mobile phone, preferably one running Android. If using a pre-configured lab kit, the user only needs to press the Enable button through the case to activate the device and connect to it via the mobile application. Please see the FlutterFlow branch for instructions on how to download the application to a mobile device.
 
-All information below provides further insight on how this code allows the onboard ESP32 to connect via bluetooth.
+If the lab kit is a brand-new PCB, the user will need to connect the Tx, Rx, and GND pins on the PCB to a computer. Once connected, download this code, open it in an Espressif IDF environment, and build and flash the PCB. If done successfully, the Lab Kit will be ready for Bluetooth connection via the mobile application.
+
+The information below provides further insight into how this code enables the onboard ESP32 to connect via Bluetooth.
 
 
 
