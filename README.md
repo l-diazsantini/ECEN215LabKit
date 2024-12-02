@@ -4,8 +4,9 @@ To operate this device, you must have a physical ECEN 215 Lab Kit and a mobile p
 
 If the lab kit is a brand-new PCB, the user will need to connect the Tx, Rx, and GND pins on the PCB to a computer. Once connected, download this code, open it in an Espressif IDF environment, and build and flash the PCB. If done successfully, the Lab Kit will be ready for Bluetooth connection via the mobile application. To operate the lab kit, connect the wires of the corresponding instrument and the device will display the data measured. The wires are given in the order from top row and from left to right:  
 <div align="center">
-  <br>|   +5v power supply  |  +voltmeter/+oscilloscope  |  ground                    |  +ammeter   |  +ohmmeter  |<br>
-                                                   |   Wavegen           |  -5v power supply          |  -voltmeter/-oscilloscope  |  -ammeter   |  -ohmmeter  |<br></div>
+  |  +5v power supply  |  +voltmeter/+oscilloscope  |  ground                    |  +ammeter   |  +ohmmeter |<br>
+                                                   |   Wavegen           |  -5v power supply          |  -voltmeter/-oscilloscope  |  -ammeter   |  -ohmmeter  |
+</div>
 <br>Wires are also color coded in which the wires for +/- power supply are red, +/- voltmeter/oscilloscope are blue, +/- ammeter are orange, +/- ohmmeter are brown, ground is black, and Wavegen is yellow. 
 
 The information below provides further insight into how this code enables the onboard ESP32 to connect via Bluetooth.
